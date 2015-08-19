@@ -1,0 +1,47 @@
+{
+	htmlName : "default.html",
+	params : [
+		{
+			type : 2,
+			dir : "head"
+		},{
+			type : 2,
+			dir : "header"
+		},{
+			type : 4,
+			values : "blogParam.blogList[{clientParam.prams.page-1}*blogParam.onePageCount~clientParam.prams.page*blogParam.onePageCount-1]",
+			dir : "index_item_blogSimplePage"
+		},{
+			type : 3,
+			condition : "clientParam.prams.page>1",
+			yes : "index_prev",
+			no : "null"
+		},{
+			type : 6,
+			from : 1,
+			to : "blogParam.blogList.size/blogParam.onePageCount",
+			interval : 1,
+			dir:"index_pageshow"
+		},{
+			type : 3,
+			condition : "blogParam.blogList.size/blogParam.onePageCount>clientParam.prams.page",
+			yes : "index_next",
+			no : "null"
+		},{
+			type : 4,
+			values : "blogParam.categorieList",
+			dir : "index_item_categories"
+		},{
+			type : 4,
+			values : "blogParam.tagList",
+			dir : "index_item_tags"
+		},{
+			type : 4,
+			values : "blogParam.archiveList",
+			dir : "index_item_archive"
+		},{
+			type : 2,
+			dir:"footer"
+		}
+	]
+}

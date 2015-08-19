@@ -1,0 +1,9 @@
+{
+	htmlName : "default.html",
+	params : [
+		{
+			type : 1,
+			value : "clientParam.prams.page-1"
+		}
+	]
+}

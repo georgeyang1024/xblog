@@ -1,0 +1,19 @@
+{
+	htmlName : "page.html",
+	params : [
+		{
+			type : 1,
+			value : "runParam.value.name",
+		},
+				{
+			type : 1,
+			value : "runParam.value.name",
+		},{
+			type : 1,
+			value : "runParam.value.introduction",
+		},{
+			type : 1,
+			value : "blogParam.fileDateMap.{runParam.value.name}.createTimeFormat",
+		}
+	]
+}

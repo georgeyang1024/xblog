@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<!-- saved from url=(0024)http://blog.moyizhou.cn/ -->
+<html lang="zh-Hans-CN">
+
+<xblogReplace></xblogReplace>
+<xblogIgnore>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="UTF-8">
+<title><xblogVar>blogParam.blogName</xblogVar>' blog</title>
+</head>
+</xblogIgnore>
+
+<body>
+	<xblogReplace></xblogReplace>
+	<xblogIgnore> <header>
+		<div>
+			<div id="imglogo">
+				<a href="./orange/src/Rimo's blog.html"><img
+					src="<xblogVar>blogParam.logo</xblogVar>" alt="Rimo&#39;s blog"
+					title="Rimo&#39;s blog">
+				</a>
+			</div>
+			<div id="textlogo">
+				<h1 class="site-name">
+					<a href="<xblogVar>blogParam.indexHtml</xblogVar>"
+						title="Rimo&#39;s blog"><xblogVar>blogParam.blogName</xblogVar>'
+						blog</a>
+				</h1>
+				<h2 class="blog-motto">
+					<xblogVar>blogParam.introduction</xblogVar>
+				</h2>
+			</div>
+		</div>
+	</header> </xblogIgnore>
+	<div id="container">
+		<div id="container">
+			<div class="archive-title">
+				<h2 class="category-icon"><xblogVar>clientParam.prams.name</xblogVar></h2>
+			</div>
+			<div id="main" class="archive-part clearfix">
+				<div id="archive-page">
+						<xblogReplace>
+					<section class="post" itemscope="" itemprop="blogPost">
+						<a href="/notes/how-to-merge-two-srt-files/" title="合并两个srt字幕文件"
+							itemprop="url"><h1 itemprop="name">合并两个srt字幕文件</h1>
+							<time datetime="2014-02-01T15:44:19.000Z"
+								itemprop="datePublished">Feb 1 2014</time>
+						</a>
+					</section>
+					</xblogReplace>
+				</div>
+			</div>
+		</div>
+
+
+	</div>
+	<footer>
+		<div id="footer">
+			<p class="copyright">
+				Powered by <a href="http://hexo.io/" target="_blank" title="HEXO">HEXO</a>
+				and Theme by <a href="https://github.com/A-limon/pacman"
+					target="_blank" title="Pacman">Pacman</a> © 2014 <a
+					href="./orange/src/Rimo's blog.html" target="_blank"
+					title="Mo Yizhou">Mo Yizhou</a> <br>
+				<small>沪ICP备12041696号</small>
+			</p>
+		</div>
+	</footer>
+	<script src="./orange/src/jquery.min.js"></script>
+	<script type="text/javascript">
+			$(document).ready(function() {
+				function e() {
+					"number" == typeof window.innerWidth ? n = window.innerWidth : document.documentElement && document.documentElement.clientWidth && (n = document.documentElement.clientWidth)
+				}
+				$(".navbar").click(function() {
+					$("header nav").toggleClass("shownav")
+				});
+				var n = 0,
+					s = $("#main"),
+					a = $("#asidepart"),
+					o = $(".closeaside"),
+					d = $(".openaside");
+				$(window).resize(function() {
+					e(), n >= 1024 ? $("header nav").removeClass("shownav") : (s.removeClass("moveMain"), a.css("display", "block").removeClass("fadeOut"), d.css("display", "none"))
+				}), o.click(function() {
+					a.addClass("fadeOut").css("display", "none"), d.css("display", "block").addClass("fadeIn"), s.addClass("moveMain")
+				}), d.click(function() {
+					d.css("display", "none").removeClass("beforeFadeIn"), a.css("display", "block").removeClass("fadeOut").addClass("fadeIn"), s.removeClass("moveMain")
+				}), $(window).scroll(function() {
+					d.css("top", Math.max(80, 260 - $(this).scrollTop()))
+				})
+			});
+		</script>
+	<script type="text/javascript">
+			var Swiftype = window.Swiftype || {};
+			! function() {
+				Swiftype.key = "kTQSzfSQafVRaZ1hm9iz", Swiftype.renderStyle = "new_page", Swiftype.resultPageURL = "/search/", Swiftype.disableAutocomplete = !0;
+				var e = document.createElement("script");
+				e.type = "text/javascript", e.async = !0, e.src = "//s.swiftypecdn.com/embed.js";
+				var t = document.getElementsByTagName("script")[0];
+				t.parentNode.insertBefore(e, t)
+			}();
+		</script>
+
+	<div class="swiftype-widget">
+		<div class="autocomplete"
+			style="position: absolute; z-index: 199999; width: 210px; top: 178.59375px; left: 1123.1875px; display: none;">
+			<ul></ul>
+		</div>
+	</div>
+</body>
+
+
+</html>

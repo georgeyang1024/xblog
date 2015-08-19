@@ -1,0 +1,16 @@
+{
+	htmlName : "default.html",
+	params : [
+		{
+			type : 2,
+			dir : "head"
+		},{
+			type : 2,
+			dir : "header"
+		},{
+			type : 4,
+			values : "blogParam.searchResult",
+			dir : "search_item_archives"
+		}
+	]
+}

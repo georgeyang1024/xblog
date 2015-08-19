@@ -1,0 +1,15 @@
+{
+	htmlName : "default.html",
+	params : [
+		{
+			type : 1,
+			value : "runParam.value.name",
+		},{
+			type : 1,
+			value : "runParam.value.name",
+		},{
+			type : 1,
+			value : "runParam.value.introduction",
+		}
+	]
+}

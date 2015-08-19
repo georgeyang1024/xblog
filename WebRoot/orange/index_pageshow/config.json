@@ -1,0 +1,12 @@
+{
+	htmlName : "empty.html",
+	params : [
+		{
+			type : 3,
+			condition : "clientParam.prams.page=runParam.integer",
+			yes : "index_page_current",
+			no : "index_page_uncurrent"
+		}
+		
+	]
+}

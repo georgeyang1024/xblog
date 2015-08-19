@@ -1,0 +1,18 @@
+{
+	htmlName : "default.html",
+	params : [
+		{
+			type : 1,
+			value : "runParam.value.name"
+		},{
+			type : 1,
+			value : "runParam.value.name"
+		},{
+			type : 1,
+			value : "runParam.value.name"
+		},{
+			type : 1,
+			value : "blogParam.fileDateMap.{runParam.value.name}.createTimeFromat"
+		}
+	]
+}

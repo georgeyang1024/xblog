@@ -1,0 +1,28 @@
+{
+	htmlName : "default.html",
+	params : [
+		{
+			type : 2,
+			dir : "head"
+		},{
+			type : 2,
+			dir : "header"
+		},{
+			type : 5,
+			value: "blogParam.blogMap.{clientParam.prams.file}",
+			dir : "info"
+		},{
+			type : 4,
+			values : "blogParam.categorieList",
+			dir : "index_item_categories"
+		},{
+			type : 4,
+			values : "blogParam.tagList",
+			dir : "index_item_tags"
+		},{
+			type : 4,
+			values : "blogParam.archiveList",
+			dir : "index_item_archive"
+		}
+	]
+}

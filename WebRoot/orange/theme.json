@@ -1,0 +1,8 @@
+{
+	indexPage : "index",
+	articlePage : "article",
+	tagPage : "tagList",
+	archivesPage : "archivesList"
+
+
+}
